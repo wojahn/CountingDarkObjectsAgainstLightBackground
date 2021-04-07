@@ -1,7 +1,7 @@
 # Pipeline to count the number of objects against a dark background
 # By J. M. A. Wojahn
 
-# WARNING! This cannot detect overlapping objects as being distinct objects,
+# WARNING! This cannot detect overlapping objects as being distinct objects
 
 
 #load packages
