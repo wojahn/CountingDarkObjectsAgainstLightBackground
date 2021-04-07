@@ -3,13 +3,14 @@
 
 # WARNING! This cannot detect overlapping objects as being distinct objects
 
+# Depends on: "EBImage" and "raster"
 
 #load packages
 library(EBImage)
 # read in your image
 # this is a section from https://live.staticflickr.com/3721/13195855974_8ae468b547_b.jpg
 # it is free to share and use according to its license
-pix <- EBImage::readImage("/Users/Mike/Downloads/MothingSheet.jpg")
+pix <- EBImage::readImage("MothingSheet.jpg")
 # turn to grayscale
 pix <- EBImage::channel(pix, mode = "gray")
 # display
