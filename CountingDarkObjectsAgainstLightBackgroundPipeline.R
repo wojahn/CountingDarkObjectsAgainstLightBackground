@@ -1,4 +1,4 @@
-# Pipeline to count the number of objects against a dark background
+# Pipeline to count the number of dark objects against a light background
 # By J. M. A. Wojahn
 
 # WARNING! This cannot detect overlapping objects as being distinct objects
